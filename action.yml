@@ -48,7 +48,7 @@ runs:
         poetry-preview: ${{ inputs.poetry-preview }}
         poetry-version: ${{ inputs.poetry-version }}
     - id: composite-python-venv-cache
-      uses: actions/cache@v3.0.1
+      uses: actions/cache@v3.0.5
       with:
         path: .venv
         key: venv-${{ runner.os }}-${{ steps.composite-setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}${{ inputs.cache-key-suffix }}
