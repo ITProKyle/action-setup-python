@@ -13,6 +13,6 @@
   },
   "homepage": "https://github.com/ITProKyle/action-setup-python#readme",
   "devDependencies": {
-    "cspell": "^6.4.0"
+    "cspell": "^6.4.2"
   }
 }
